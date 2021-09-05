@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+
+</head>
+<body id="back">
+    <div id="weather" class="wea">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>     
+        <div id="Centdiv" class="center">    
+            <div> 
+                <h2 id="greeting2" class="hidden" style="text-align: center;"></h2>
+                    <div style="text-align: center;" class="time">
+                        <h2 class="js-clock"></h2> 
+                    </div>
+
+        <form id="login">
+        <div>
+            <div class="nickBox" style="text-align: center;">
+            <input
+            required
+            class="nick" 
+            type="text" 
+            placeholder="이름을 입력해주세요." 
+            onkeyup="enterkey();">
+            <h1 id="greeting" class="hidden"></h1>
+            </div>
+        
+            <div>
+                <div class="nickBox" style="text-align: center;">
+                   <input 
+                    required 
+                    id="dDay" 
+                    class="nick1" 
+                    type="number" 
+                    placeholder="D'Day설정 (8자리)"
+                    onkeyup="enterkey2();">
+
+                    
+                </div>
+           
+
+        </div>
+    </form>   
+
+    </div>
+    <form id="todoform">    
+        <div class="todobox">
+            <input id="todoText"
+            required="required"
+            class="todostyle"  
+            type="text" 
+            placeholder="Write a To do and Press Enter"  
+            >
+            <h3 id=greeting3></h3>
+            
+
+
+        </div>
+</form>
+   
+<ul id="todo-list"></ul>
+
+
+   
+
+    </div>   
+
+<script src="dDayClock.js"></script>
+<script src="Clock.js"></script>
+<script src="background.js"></script>
+<script src="app.js"></script>
+<script src="todo.js"></script>
+<script src="weather.js"></script>
+
+</body>
+</html>
